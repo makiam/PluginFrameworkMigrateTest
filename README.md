@@ -1,2 +1,2 @@
-# PluginAndEventsDemo
+# PluginFrameworkMigrateTest
 Plugin Framework Migration Demo
