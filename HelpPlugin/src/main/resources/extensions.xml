@@ -1,0 +1,10 @@
+<extension name="HelpPlugin" version="0.0.1">
+    <author>Maksim Khramov</author>
+    <date>April 17, 2024</date>
+
+    <resource type="help" id="AOIHelp" name="helpset/AOIHelp.hs" />
+    <resource type="help" id="AOIHelp" name="helpset/AOIHelp_de.hs" locale="DE" />
+    <resource type="help" id="AOIHelp" name="helpset/AOIHelp_fr.hs" locale="FR" />
+
+    <resource type="TranslateBundle" id="HelpPlugin" name="helpplugin"/>
+</extension>

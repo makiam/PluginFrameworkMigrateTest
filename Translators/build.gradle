@@ -1,0 +1,15 @@
+plugins {
+	id 'aoi.plugin-conventions'
+}
+
+description = 'Translators'
+
+jar {
+	manifest {
+		attributes(
+				'Plugin-Version': '0.0.1',
+				'Plugin-Id': 'standard-translators-plugin',
+				'Plugin-Description': 'Standard Translators Plugin',
+		)
+	}
+}

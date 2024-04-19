@@ -1,0 +1,15 @@
+plugins {
+	id 'aoi.plugin-conventions'
+}
+
+description = 'DefaultResource'
+
+jar {
+	manifest {
+		attributes(
+				'Plugin-Version': '0.0.1',
+				'Plugin-Id': 'default-resource',
+				'Plugin-Description': 'Standard I18N resource plugin',
+		)
+	}
+}

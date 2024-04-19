@@ -1,0 +1,15 @@
+plugins {
+	id 'aoi.plugin-conventions'
+}
+
+description = 'Tools'
+
+jar {
+	manifest {
+		attributes(
+				'Plugin-Version': '0.0.1',
+				'Plugin-Id': 'standard-tools-plugin',
+				'Plugin-Description': 'Standard Tools Plugin',
+		)
+	}
+}

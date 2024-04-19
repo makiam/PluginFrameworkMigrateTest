@@ -1,0 +1,3 @@
+<extension name="DefaultResource" version="0.0.1">
+    <resource type="TranslateBundle" id="DefaultResource" name="Bundle"/>
+</extension>

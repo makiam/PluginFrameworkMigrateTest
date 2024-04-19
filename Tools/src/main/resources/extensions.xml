@@ -1,0 +1,26 @@
+<extension name="Tools" version="0.0.1">
+    <author>Maksim Khramov</author>
+    <date>April 17, 2024</date>
+
+    <description>
+        This plugin contains the standard modeling tools which are included with Application.
+    </description>
+
+    <resource type="TranslateBundle" id="Tools" name="Bundle"/>
+
+    <!-- In terms of old application, the pf4j Extension is a plugin-->
+    <plugin class="aoi.tools.LatheTool">
+        <!-- This method can be invoked by name with PluginRegistry.invokeExportedMethod(...) -->
+        <export method="createLathe" id="aoi.tools.LatheTool">
+            Some method documentation can be placed here
+        </export>
+    </plugin>
+
+    <!-- File can also contain some historical data. But this is not used in code -->
+    <history>
+        <log version="0.0.1" date="April 17, 2024" author="Maksim Khramov">
+            Initial release
+        </log>
+    </history>
+
+</extension>

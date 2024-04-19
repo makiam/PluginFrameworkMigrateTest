@@ -1,0 +1,35 @@
+plugins {
+    id 'aoi.java-conventions'
+    id 'application'
+
+}
+
+description = 'Migration Demo App'
+
+
+
+ext {
+   mainClass = "artofillusion.App"
+}
+
+application {
+    mainClass =  "artofillusion.App"
+}
+
+dependencies {
+    implementation group: 'org.apache.groovy', name: 'groovy', version: '4.0.0'    
+    implementation group: 'com.fifesoft', name: 'rsyntaxtextarea', version: "${rstaVersion}"
+        
+}
+
+jar {
+    manifest {
+        attributes('Main-Class': "${mainClass}", "Class-Path": configurations.runtimeClasspath.collect { it.getName() }.join(' '), "Implementation-Version": "0.0.1")
+    }
+}
+
+//This section suppresses TAR file generation
+tasks.withType(Tar) {
+    enabled = false
+}
+

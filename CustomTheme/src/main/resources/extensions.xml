@@ -1,0 +1,4 @@
+<extension name="CustomThemes" version="0.0.1">
+    <resource type="UITheme" id="customOne" name="customOne/theme.xml"/>
+    <resource type="UITheme" id="customTwo" name="customTwo/theme.xml"/>
+</extension>

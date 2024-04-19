@@ -1,0 +1,27 @@
+plugins {
+    id 'aoi.plugin-conventions'
+}
+
+description = 'HelpPlugin'
+
+sourceSets {
+    main {
+        resources {
+            srcDir 'src/main/help'
+        }
+    }
+}
+
+jar {
+    manifest {
+        attributes(
+                'Plugin-Version': '0.0.1',
+                'Plugin-Id': 'help-plugin',
+                'Plugin-Description': 'Help System Plugin',
+        )
+    }
+}
+
+
+
+

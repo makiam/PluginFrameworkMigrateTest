@@ -1,0 +1,19 @@
+plugins {
+    id 'aoi.plugin-conventions'
+}
+
+description = 'DefaultTheme'
+
+jar {
+    manifest {
+        attributes(
+                'Plugin-Version': '0.0.1',
+                'Plugin-Id': 'default-theme-plugin',
+                'Plugin-Description': 'Default Application Theme',
+        )
+    }
+}
+
+
+
+

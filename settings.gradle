@@ -1,0 +1,4 @@
+rootProject.name = 'MigrateDemoApp'
+
+include ':App', ':Filters',':Tools', ':Translators', ':HelpPlugin', ':DefaultTheme', ':DefaultResource', ':CustomTheme'
+
